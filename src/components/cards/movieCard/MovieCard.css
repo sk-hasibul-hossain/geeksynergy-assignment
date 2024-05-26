@@ -1,0 +1,123 @@
+.movie-card-outer-containe{
+    width: 480px;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    padding: 8px;
+}
+
+.movie-card-body{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* background-color: red; */
+    /* border: 1px solid red; */
+}
+
+.movie-card-left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+.movie-card-vote{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    gap: 8px;
+    height: 80%;
+}
+
+.arrow-container{
+    width: 24px;
+    height: 24px;
+}
+
+.movie-card-vote-text{
+    display: flex;
+    align-items: self-end;
+    height: 20%;
+    font-size: 1rem;
+}
+
+.movie-card-vote-text > p{
+    /* border: 1px solid red;
+    background-color: green; */
+    margin: 0;
+    padding: 0;
+}
+
+.movie-card-right-section{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.arrow-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.movie-card-image-container{
+    width: 100px;
+    height: 100%;
+    background-color: green;
+    border-radius: 8px;
+}
+
+.movie-card-image-container img{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-card-movie-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-card-movie-info > h2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 4px;
+}
+
+.movie-card-movie-info-body{
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    /* border: 1px solid red; */
+}
+
+.movie-card-movie-info-body p{
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.movie-card-movie-info-body p span{
+    font-weight: 600;
+    color: #464646;
+}
+
+.movie-card-btn{
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(17, 153, 216);
+    border: none;
+    border-radius: 6px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.card-vote-text-color{
+    color: rgb(8, 150, 150);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px){
+    .movie-card-outer-containe{
+        width: 100%;
+    }
+}
