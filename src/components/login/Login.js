@@ -37,7 +37,7 @@ const Login = () => {
     } else {
       const users = JSON.parse(localStorage.getItem("users"));
       const user = users?.find((user) => {
-        if (user.email === name) {
+        if (user.email === name && user.password === password) {
           return user;
         }
       });
